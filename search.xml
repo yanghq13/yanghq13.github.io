@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>第二篇文章</title>
+    <url>/2020/10/13/Post-2/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Hello Blog</title>
     <url>/2020/10/12/hello-world/</url>
     <content><![CDATA[<p>欢迎来到 <a href="https://hexo.io/">Hexo</a>! </p>
@@ -11,11 +16,6 @@
 <import cv2 as cv>
 
 ]]></content>
-  </entry>
-  <entry>
-    <title>第二篇文章</title>
-    <url>/2020/10/13/Post-2/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>第三篇文章</title>
