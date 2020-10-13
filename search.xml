@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello Blog</title>
+    <url>/2020/10/12/hello-world/</url>
+    <content><![CDATA[<p>欢迎来到 <a href="https://hexo.io/">Hexo</a>! </p>
+<p>这是我的第一篇博客，不知道写些什么。</p>
+<p>以后会在这里更新我学习的一些知识，与大家分享。</p>
+<a id="more"></a>
+
+<import cv2 as cv>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>第二篇文章</title>
+    <url>/2020/10/13/Post-2/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>第三篇文章</title>
+    <url>/2020/10/13/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
