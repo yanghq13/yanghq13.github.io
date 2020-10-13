@@ -2267,6 +2267,12 @@ pre code {
     transform: rotateZ(-30deg);
   }
 }
+body {
+  background: url("/images/moonlight.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
 .category-all-page .category-all-title {
   text-align: center;
 }
