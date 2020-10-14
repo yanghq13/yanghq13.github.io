@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第二篇文章</title>
-    <url>/2020/10/13/Post-2/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Hello Blog</title>
     <url>/2020/10/12/hello-world/</url>
     <content><![CDATA[<p>欢迎来到 <a href="https://hexo.io/">Hexo</a>! </p>
+<a id="more"></a>
 <p>这是我的第一篇博客，不知道写些什么。</p>
 <p>以后会在这里更新我学习的一些知识，与大家分享。</p>
-<a id="more"></a>
+<div class="note default"><p>default效果</p></div>
+<div class="note primary"><p>primary效果</p></div>
+<div class="note success"><p>success效果</p></div>
+<div class="note info"><p>info效果</p></div>
+<div class="note warning"><p>warning效果</p></div>
+<div class="note danger"><p>danger效果</p></div>
+
+
+<!-- more -->
 
 <import cv2 as cv>
 
 ]]></content>
+  </entry>
+  <entry>
+    <title>第二篇文章</title>
+    <url>/2020/10/13/Post-2/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>第三篇文章</title>
