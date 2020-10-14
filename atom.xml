@@ -30,15 +30,23 @@
   </entry>
   
   <entry>
-    <title>第二篇文章</title>
+    <title>【主题美化系列】添加背景图片</title>
     <link href="http://www.yanghq13.com/2020/10/13/Post-2/"/>
     <id>http://www.yanghq13.com/2020/10/13/Post-2/</id>
     <published>2020-10-13T08:45:14.000Z</published>
-    <updated>2020-10-13T10:23:38.842Z</updated>
+    <updated>2020-10-14T05:46:32.183Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇介绍如何在Next8.0中添加背景图片的文章</p><a id="more"></a><h1 id="找到pages-styl"><a href="#找到pages-styl" class="headerlink" title="找到pages.styl"></a>找到pages.styl</h1><p>在以下文件夹，找到</p><pre><code>*\themes\next\source\css\_common\components\pages\pages.styl</code></pre><h1 id="添加背景"><a href="#添加背景" class="headerlink" title="添加背景"></a>添加背景</h1><p>在上述目录下的pages.styl 添加以下代码，图片的url可以是网图，也可以是站点imags目录下图片，建议添加至文本开头</p><pre><code>body &#123;  background:url(/images/ywy_bg.png);  background-repeat: no-repeat;  background-attachment:fixed;  background-position:50% 50%;&#125;</code></pre><p>刷新页面即可看到效果</p><h1 id="设置透明度"><a href="#设置透明度" class="headerlink" title="设置透明度"></a>设置透明度</h1><h2 id="配置信息"><a href="#配置信息" class="headerlink" title="配置信息"></a>配置信息</h2><p>在主题的_config.yml添加以下配置信息</p><pre><code># ---------------------------------------------------------------# Post Settings# See: https://theme-next.org/docs/theme-settings/posts# ---------------------------------------------------------------​# 更改post_block透明度post_block:  enable: true  opacity: 0.9</code></pre><h2 id="添加属性"><a href="#添加属性" class="headerlink" title="添加属性"></a>添加属性</h2><p>在pages.styl里添加以下信息</p><pre><code>body &#123;  background:url(/images/ywy_bg.png);  background-repeat: no-repeat;  background-attachment:fixed;  background-position:50% 50%;  if (hexo-config(&#39;post_block.enable&#39;)) &#123;    opacity: hexo-config(&#39;post_block.opacity&#39;)  &#125;&#125;</code></pre>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这是一篇介绍如何在Next8.0中添加背景图片的文章&lt;/p&gt;</summary>
     
     
     
+    <category term="主题优化" scheme="http://www.yanghq13.com/categories/%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/"/>
     
+    
+    <category term="Next主题" scheme="http://www.yanghq13.com/tags/Next%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
